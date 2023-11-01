@@ -391,9 +391,9 @@ static void
 init(void)
 {
    static GLfloat pos[4] = { 5.0, 5.0, 10.0, 0.0 };
-   static GLfloat red[4] = { 0.8, 0.1, 0.0, 1.0 };
-   static GLfloat green[4] = { 0.0, 0.8, 0.2, 1.0 };
-   static GLfloat blue[4] = { 0.2, 0.2, 1.0, 1.0 };
+   static GLfloat red[4] = { 91.0/255, 206.0/255, 250.0/255, 1.0 };
+   static GLfloat green[4] = { 245.0/255, 168.0/255, 184.0/255, 1.0 };
+   static GLfloat blue[4] = { 1.0, 1.0, 1.0, 1.0 };
 
    glLightfv(GL_LIGHT0, GL_POSITION, pos);
    glEnable(GL_CULL_FACE);
